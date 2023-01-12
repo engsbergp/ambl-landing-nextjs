@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { FaTwitter, FaTree, FaInstagram } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/Ai";
+import { AiOutlineMail } from "react-icons/ai";
 
 function Footer() {
   return (
