@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-b from-blue-900 to-sky-600 box-border overflow-x-hidden m-0 p-0;
+  }
+}
+
+@layer components {
+  .header-link {
+    @apply cursor-pointer text-base font-light text-slate-50 transition;
+  }
+  .p-text {
+    @apply text-lg text-slate-50 font-light;
+  }
+
+  .curve1 {
+    @apply absolute h-[70px] w-[300%] bg-slate-50 bottom-10 rotate-[358deg] translate-y-20 rounded-[50%];
+  }
+}
